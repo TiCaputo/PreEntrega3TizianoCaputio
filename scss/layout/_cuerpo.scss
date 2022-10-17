@@ -1,0 +1,20 @@
+main {
+    background-color: black;
+}
+
+footer {
+    background-image: url(./assets/img/pie.jpg);
+    text-align: center;
+    color: $color-primario;
+    text-align: center;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo__inicio {
+    text-align: center;
+    background-color: black;
+    margin-bottom: 0px;
+    color: $color-primario;
+}

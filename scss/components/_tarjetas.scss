@@ -1,0 +1,51 @@
+.content {
+    @include dflex(row, space-evenly, center);
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 25px;
+}
+
+.tarjeta {
+    margin: 4rem;
+    border: 2px solid $color-primario;
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    color: $color-primario;
+    box-shadow: 0px 1px 10px $color-primario;
+
+    cursor: default;
+    transition: all 400ms ease;
+
+    &:hover {
+        box-shadow: 5px 5px 20px $color-primario;
+        transform: translateY(-3%);
+    }
+}
+
+.titulo__tarjetas{
+    text-align: center;
+    color: $color-primario;
+    font-size: 35px;
+}
+
+.tarjeta__promos {
+    margin: 4rem;
+    border: 2px solid $color-primario;
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: rgba(165, 42, 42, 0.644);
+
+    @include dflex(column, center, center);
+}
+
+.tarjeta__combos {
+    margin-top: 25px;
+}
+
+
+

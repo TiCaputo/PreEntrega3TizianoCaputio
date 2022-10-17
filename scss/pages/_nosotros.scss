@@ -1,0 +1,21 @@
+.nosotros__titulo{
+    text-align: center;
+    color: brown;
+    font-family: Courier New, monospace;
+}
+.nosotros__parrafo{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    @include flex-center();
+
+}
+.nosotros__texto{
+    text-align: center;
+    color: rgb(128, 125, 125);
+    font-style: Courier New, monospace;
+}
+.nosotros__seguinos{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+}
